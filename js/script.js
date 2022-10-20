@@ -1,4 +1,3 @@
-
 function cardNumber(cardPin){
     if (cardPin.length < 16 || cardPin.length > 16 || isNaN(+cardPin)){
         console.log('Error writing');
